@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="lib/|lib/|lib/|lib/|lib/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_131"/>
+	<classpathentry kind="lib" path="src/lib/mail.jar"/>
+	<classpathentry kind="lib" path="src/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="src/lib/javax.mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
