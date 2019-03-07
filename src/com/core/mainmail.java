@@ -15,9 +15,9 @@ import com.core.sendmail;
 import com.util.CurrentTime;
 
 /*
- * 业务逻辑：查询表sdecp.t_login_log_yestertoday中是否有数据，表中没数据的话进行告警
- * 相关业务负责人：丁昊：15552503503  闫树东：18764132037
- * @author liyunqing@xwtec.cn
+ * 业务逻辑：查询表t_login_log_*中是否有数据，表中没数据的话进行告警
+ * 相关业务负责人：丁*：  闫**：
+ * @author liyunqing
  * */
 
 
