@@ -15,8 +15,7 @@ import com.core.sendmail;
 import com.util.CurrentTime;
 
 /*
- * 业务逻辑：查询表t_login_log_*中是否有数据，表中没数据的话进行告警
- * 相关业务负责人：丁*：  闫**：
+ * 业务逻辑：查询表_*中是否有数据，表中没数据的话进行告警
  * @author liyunqing
  * */
 
@@ -30,7 +29,7 @@ public class mainmail {
 		String [] phone = receiveWarnPhone.split(",");
 		for (int i = 0; i < phone.length; i++) {
 	        //发送 GET 请求
-	        String s=HttpClientUtil.sendGet(smsurl, "phone="+ phone[i] + "&content=推荐有礼相关定时任务监控告警,表sdecp.t_login_log_yestertoday无数据");
+	        String s=HttpClientUtil.sendGet(smsurl, "phone="+ phone[i] + "&content=任务监控告警,表无数据");
 	        System.out.println(s);
 		}
 	}
